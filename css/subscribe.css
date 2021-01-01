@@ -1,0 +1,492 @@
+fieldset{
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 21;
+  left: -40px;
+  right: 0;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  background: #000000cf;
+  /*border-radius: 20px;*/
+  padding: 0;
+  min-width: 320px;
+  /*padding-right: 17px;*/
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.subscribe3{
+  display: none;
+}
+.no-vanish{
+  display: block !important;
+}
+fieldset div {
+  height: 60px;
+  /* margin: 50px; */
+  font-size: 17px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  /* text-align: left; */
+  /* width: auto; */
+  width: 400px;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 20px;
+  /*margin-top: 20px;*/
+  position: relative;
+  background: #1c1c1c;
+  border-radius: 5px;
+}
+
+fieldset label{
+  font-weight:normal;
+    display: block;
+    text-indent: 10px;
+}
+
+fieldset input {
+  border: none;
+  height: 40px;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+  outline: none;
+  background-color: transparent!important;
+  color: white !important;
+  width: 100%;
+  text-align: left;
+  text-indent: 10px;
+  border-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+}
+.no-curve{
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+fieldset input[type="text"]{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#eyeball{
+	position: absolute;
+    font-size: 30px;
+    right: 0;
+    top: 0;
+    background-color: #1c1c1c;
+    height: 43px;
+    text-align: center;
+    width: 60px;
+    padding: auto;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 2px solid white;
+    transition: color0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+#eyeball:hover{
+	background-color: white;
+	color: #3d3d3d;
+	cursor: pointer;
+}
+#signinpassword{
+  width: 330px;
+  border-bottom-right-radius: 0px;
+}
+fieldset button{
+ width: 100%;
+    height: 100%;
+    padding: 0;
+    background: #1c1c1c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    outline: none;
+}
+fieldset button:hover{
+background-color: white;
+background: white;
+color: #3d3d3d;
+cursor: pointer;
+}
+.sign-up{
+    background: linear-gradient(45deg, #5a3194, #7d59c34f);
+}
+.sign-up-parent {
+    background: azure;
+}
+#subwrap{
+    height: auto;
+}
+.subplan {
+  /* float: left; */
+  width: 100%;
+  font-size: 20px;
+  margin: auto;
+  display: inline-block;
+  height: 90px;
+  margin-bottom: 0;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  /* position: absolute; */
+  /* position: absolute; */
+  /* bottom: 0; */
+}
+
+.subplan:hover{
+    background-color: white;
+    color: #3d3d3d;
+}
+
+.subplan span{
+    position:relative;
+    top: 5px;
+    text-decoration: underline;
+}
+
+.pricing{
+    margin: auto;
+    padding-top: 10px;
+    font-weight:normal;
+    width: auto;
+    text-align: center;
+    background-color: transparent;
+}
+.pricing span{
+  text-decoration: none;
+    top: 0;
+    font-size: 18px;
+}
+
+#lock{
+  background-color:transparent;
+  background:transparent;
+  width: 100%;
+  height: 440px;
+  margin:auto;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  width: 320px;
+  height:360px;
+  margin:auto;
+  transform: scale(0.25);
+  overflow: hidden;
+}
+#locktop, #lockbody{
+  background-color:transparent;
+  background: transparent;
+  height: 100px;
+  width: 100px;
+  /*border: 3px solid;*/
+  margin:auto;
+}
+#locktop{
+  width: 130px;
+  position: relative;
+  transform-origin:115px 130px;
+  transition: all 0.2s linear;
+    transition-delay: 0.4s;
+  /*transform: rotateY(0deg);*/
+  
+}
+.rotate{
+  transform: rotateY(180deg);
+}
+.unrotate{
+  transform: rotateY(0deg);
+}
+#semicircle,#covercircle{
+  margin:0;
+  background-color: transparent;
+  background:transparent;
+  width:70px;
+  height:75px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top: 30px solid white;
+  border-left: 30px solid transparent;
+  border-right: 30px solid white;
+  /*transform: rotateY(deg);
+    transform-origin:100% 100%*/
+}
+#covercircle{
+  border-left: 30px solid white;
+  margin: 0;
+}
+#leftline{
+  background-color: transparent;
+  background:transparent;
+  width: 100%;
+  height: 100%;
+  display:inline-block;
+  float: left;
+  position:absolute;
+  top: 0px;
+  margin: 0px;
+  overflow:hidden;
+}
+#lockbody{
+  background-color:transparent;
+  background:transparent;
+  border: 30px solid white;
+  height:200px;
+  width: 200px;
+  border-radius: 25px;
+  margin-top: 0px;
+  position: relative;
+}
+#keyhole{
+  background-color: transparent;
+  background:transparent;
+  border: 0px solid white;
+  height: 60px;
+  width: 60px;
+  margin:auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+}
+#topkeyhole{
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: white;
+}
+#bottomkeyhole{
+  width: 15px;
+  height: 50px;
+  position: relative;
+  top: -20px;
+  margin: auto;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#keyspace{
+  position:absolute;
+  bottom: 0px;
+  height:155px;
+  width:50%;
+  overflow:hidden;
+  background-color: transparent;
+  background:transparent;
+}
+.fa-key{
+  color:white;
+  font-size:100px;
+  position: absolute;
+  top: 0px;
+  left: -185px;
+  transform: rotate(224deg);
+  -webkit-text-stroke-width: 5px;
+   -webkit-text-stroke-color: #241558;
+
+}
+
+#checkcircle{
+  position:absolute;
+  top:0;
+  border:none;
+}
+
+#casualplay,#frequentfun,#ultimatehost{
+  display:inline-block;
+  width:30%;
+  /*display: none !important;*/
+}
+#forgotusername, #forgotpassword, #passwordretrieved, #notahost{
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+#forgotusername{
+  display: none;
+}
+#forgotusername:hover, #forgotpassword:hover, #passwordretrieved:hover, #notahost:hover{
+  color: #00bfff;
+}
+.forgotpassword{
+  display: none;
+}
+#freeplay{
+  margin-bottom: 5px;
+  display: block; 
+  width: 30%;
+}
+@media screen and (max-width: 812px) {
+  fieldset div{
+    width: 300px;
+  }
+
+  #freeplay{
+    width: 90%;
+    }
+  /*.subplan{
+    width: 100%;
+    margin-bottom:20px;
+    height: 175px;
+  }*/
+
+  #signinpassword{
+  width: 230px;
+}
+
+}
+@media screen and (max-width: 588px) {
+    #subwrap{
+        height: 420px;
+    }
+  fieldset div{
+    width: 300px;
+  }
+  .subplan{
+    margin-bottom:5px;
+  }
+  /*#freeplay{
+    margin-bottom: 10px;
+  }*/
+  #casualplay,#frequentfun,#ultimatehost{
+  display:inline-block;
+  width:90%;
+}
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.subscribe2 div{
+  height: 40px;
+}
+
+.StripeElement {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+  height: 20px;
+  width: 366px;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.subscribe2{
+ display:none;
+}
+
+.__PrivateStripeElement{
+  width:375px;
+}
+
+#joinaccount, #newsubsubmit, #newcardsubmit{
+  width: 400px; 
+  height: 40px;
+}
+#joinaccount{
+    width: 400px;
+    height: 50px;
+}
+
+#backtosignin{
+  width: 400px; 
+  height: 40px; 
+  text-align: center; 
+  font-size: 25px;
+  margin-top: 10px;
+  padding-top: 10px; 
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+select{
+  outline: none;
+}
+select option{
+  color: black;
+}
+select option {
+  outline: none;
+  cursor: pointer;
+    margin: 40px;
+    background: #3d3d3d;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+select option:hover{
+  background: white;
+}
+#backtosignin:hover{
+  background-color: white;
+  color: #3d3d3d;
+}
+/*For mobile layout*/
+@media screen and (max-width: 812px) {
+
+.__PrivateStripeElement{
+  width:300px;
+  height: 20px;
+}
+
+.StripeElement {
+  padding: 10px 4px;
+  width: 290px;
+
+}
+
+.subscribe2 div #card-element{
+  height: 20px;
+}
+
+#joinaccount, #newsubsubmit, #newcardsubmit{
+  width: 300px; 
+  height: 40px;
+}
+#joinaccount{
+    width: 300px;
+    height: 50px;
+}
+
+#backtosignin{
+  width: 300px; 
+}
+
+}
+
+fieldset input:focus {
+    border-bottom: 2px solid #03A9F4;
+}
+fieldset input:focus + #eyeball{
+    border-bottom: 2px solid #03A9F4;
+}
